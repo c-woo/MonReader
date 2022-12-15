@@ -1,5 +1,8 @@
 # MonReader
 
+A mobile digital documentation app used for automatic, quick, and high quality document scanning requires the app to know whether or not a page is being flipped in order to take pictures correctly. The app needs to be able to take pictures while a page is still and not being flipped in order to take high quality pictures of each page. If the app cannot distinguish if a page is being moved, it might take pictures while there is movement causing the images to be low quality and unusable rendering the app useless.
+
+
 I'll be attempting to create a deep learning model that can accurately classify whether or not a book page is being flipped in an image. 
 
 Here's a quick look at some of the images from the dataset.
