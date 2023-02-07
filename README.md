@@ -10,13 +10,15 @@ Here's a quick look at some of the images from the dataset.
 <img src='https://i.imgur.com/LZN4lXx.jpg'>
 
 ### Image Augmentation
-'''
+I'll be using a random rotation and random flip for image augmentation. After playing around with various image augmentation techniques, using these two gave the most consistent results.
+
+```
 img_augmentation = models.Sequential(
     [
         layers.RandomRotation(factor=0.15),
         layers.RandomFlip()
     ])
-'''
+```
 
 <img src='https://i.imgur.com/l7YMLEk.jpg'>
 
